@@ -1,1 +1,2 @@
 # FSI-IA
+Empleando el dataset de Legos he desarrollado dos modelos de redes neuronales capaces de identificar a qué clase de Lego, de las 16 existentes, corresponde cada imagen. Uno de los modelos emplea VGG16 de Keras (Lego-BricksVGG16). El segundo modelo (Lego-BricksPersonalized) ha sido desarrollado manualmente cada capa tomando como referencia el modelo empleado en clase para el recocimiento de números mediante lenguaje de signos, modificando parámetros como el número de capas para lograr una precisión lo mayor posible, evitando el overfitting en la medida de lo posible.
